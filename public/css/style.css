@@ -1,0 +1,7 @@
+body { 
+    padding-top:50px; 
+}
+.container .jumbotron {
+    text-align: center; 
+    border-radius:40px; 
+}

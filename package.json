@@ -1,0 +1,25 @@
+{
+  "name": "herokutest",
+  "version": "1.0.0",
+  "description": "testing heroku server integration",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hreidar17/herokuTest.git"
+  },
+  "author": "hreidar17",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hreidar17/herokuTest/issues"
+  },
+  "homepage": "https://github.com/hreidar17/herokuTest#readme",
+  "devDependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "jest": "^23.6.0"
+  }
+}
