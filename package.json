@@ -4,7 +4,7 @@
   "description": "testing heroku server integration",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "node index.test.js",
     "start": "node index.js"
   },
   "repository": {
@@ -17,7 +17,7 @@
     "url": "https://github.com/hreidar17/herokuTest/issues"
   },
   "homepage": "https://github.com/hreidar17/herokuTest#readme",
-  "dependencies" : {
+  "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.4"
   },
